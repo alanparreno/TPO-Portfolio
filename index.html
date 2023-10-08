@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+
+
+    <!-- Datos de contacto -->
+    <!-- Falta poner clases para el CSS -->
+
+    <main>
+        <!-- Formulario de Contacto -->
+        <h1>Contacto</h1>
+        <span>¿Tenes algún proyecto en mente? Contactame acá</span>
+        <br><br>
+        <!-- Contacto -->
+        <section id="Contacto">
+            <div class="contenedor-grid-contacto">
+                <div class="contacto-izquierda">
+                    <table>
+                        <tr>
+                            <td>Contáctame: </td>
+                        </tr>
+                        <tr>
+                            <td>Email:juancarlos@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Número de celular:123456</td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- Formulario -->
+                <div class="contacto-derecha">
+                    <form action="">
+                        <!-- Nombre -->
+                        <label for="Nombre"></label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                        <!-- Email -->
+                        <label for="Email"></label>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                        <br>
+                        <!-- Mensaje -->
+                        <textarea name="Mensaje" id="Mensaje" cols="30" rows="10" placeholder="Escriba su mensaje"
+                            required></textarea>
+
+                        <!-- Botón -->
+                        <button type="button" onclick="alert('Este botón no hace nada (por ahora)')">Enviar</button>
+
+                    </form>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <br><br>
+        <br><br>
+
+        <!-- Sección sobre mí -->
+        <!-- Falta poner clases para el CSS -->
+        <section id="sobreMi">
+
+            <!-- Caja de introducción -->
+            <h1>Sobre mí</h1>
+            <h3>Introducción</h3>
+            <div class="contenedor-grid">
+                <div class="izquierda">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dicta quis hic corporis
+                        error
+                        reprehenderit voluptates commodi recusandae aliquid reiciendis, nemo vel placeat voluptas,
+                        beatae
+                        repellendus fuga sit dolore optio!</p>
+                    <button class="boton-cv" onclick="alert('Este botón no hace nada (por ahora)')">Descarga mi
+                        CV</button>
+
+                </div>
+
+
+                <!-- Botón -->
+
+
+                <!--  <div class="skills-header"> -->
+
+
+                <div class="derecha">
+                    <h3>Frontend</h3>
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Bootstrap</span>
+                    <span>JavaScript</span>
+                    <span>Vue</span>
+                    <span>React</span>
+                    <span>Angular</span>
+
+                    <!--  <div class="skills-header"> -->
+                    <h3>Backend</h3>
+                    <div class="skills-list">
+                        <span>PHP</span>
+                        <span>JAVA</span>
+                        <span>Python</span>
+                        <span>C++</span>
+                    </div>
+
+                    <h3>Database</h3>
+                    <div class="skills-list">
+                        <span>MySQL</span>
+                        <span>PostgreSQL</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+</body>
+
+</html>
