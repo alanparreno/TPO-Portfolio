@@ -1,0 +1,74 @@
+/* ----- BASE ----- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+/* contacto */
+
+.contenedor-grid-contacto{
+grid-column: 1;
+display: grid;
+grid-gap: 20px; /* Agrega espacio entre las columnas */
+grid-template-columns: 1fr auto 1fr; /* Divide el contenedor en tres columnas */
+align-items: center; /* Centra verticalmente los elementos */
+height: 100px; /* Establece una altura deseada para el contenedor */
+font-size: 15px;
+padding: 30px;
+}
+
+.contacto-izquierda{
+    border: 1px solid black;
+    grid-column: 1; /* Coloca el elemento a la izquierda en la primera columna */
+    /* Estilos para el elemento a la izquierda */
+}
+
+.contacto-derecha{
+    border:1px solid black;
+    grid-column: 3; /* Coloca el elemento a la derecha en la tercera columna */
+    /* Estilos para el elemento a la derecha */
+}
+
+
+/* Sobre mí */
+
+.contenedor-grid {
+    grid-column: 2;
+    display: grid;
+    grid-gap: 20px; /* Agrega espacio entre las columnas */
+    grid-template-columns: 1fr auto 1fr; /* Divide el contenedor en tres columnas */
+    align-items: center; /* Centra verticalmente los elementos */
+    height: 100px; /* Establece una altura deseada para el contenedor */
+    font-size: 15px;
+    padding: 30px;
+} 
+
+.izquierda {
+    border: 1px solid black;
+    grid-column: 1; /* Coloca el elemento a la izquierda en la primera columna */
+    /* Estilos para el elemento a la izquierda */
+}
+
+.derecha {
+    border:1px solid black;
+    grid-column: 3; /* Coloca el elemento a la derecha en la tercera columna */
+    /* Estilos para el elemento a la derecha */
+}
+
+.boton-cv {
+    width: 100px; /* Establece el ancho deseado en píxeles */
+    height: 50px; /* Establece el alto deseado en píxeles */
+    font-size: 18px; /* Tamaño de fuente opcional */
+    /* Otros estilos opcionales */
+    background-color: #007bff; /* Cambia el color de fondo */
+    color: #ffffff; /* Cambia el color del texto */
+    border: none; /* Elimina el borde */
+    border-radius: 5px; /* Agrega esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
