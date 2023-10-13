@@ -6,57 +6,135 @@
     font-family: 'Poppins', sans-serif;
 }
 
-h1{
+.contacto-texto {
     text-align: center;
 }
 
-/* contacto */
+.contacto-texto span {
+    color: gray;
+}
+/* SECCIÓN CONTACTO */
 
 .contenedor-grid-contacto{
 grid-column: 1;
 display: grid;
-grid-gap: 20px; /* Agrega espacio entre las columnas */
+grid-gap: 20px; /*  espacio entre las columnas */
 grid-template-columns: 1fr auto 1fr; /* Divide el contenedor en tres columnas */
+grid-template-rows: 1fr 2fr 1fr 1fr 1fr;
 align-items: center; /* Centra verticalmente los elementos */
-height: 100px; /* Establece una altura deseada para el contenedor */
+height: 400px; /* Establece una altura deseada para el contenedor */
 font-size: 15px;
 padding: 30px;
 }
 
 .contacto-izquierda{
-    border: 1px solid black;
     grid-column: 1; /* Coloca el elemento a la izquierda en la primera columna */
-    /* Estilos para el elemento a la izquierda */
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    align-content: center;
+    border: 2px solid #AAA;
+    border-radius: 10px;
+    padding: 50px 80px 80px 200px;
+    background-color: #007BFF;
+    outline: none;
+
 }
 
-.contacto-derecha{
-    border:1px solid black;
-    grid-column: 3; /* Coloca el elemento a la derecha en la tercera columna */
-    /* Estilos para el elemento a la derecha */
+
+/* Estilos para el formulario */
+.contacto-derecha {
+  border:1px solid black;
+  grid-column: 3; /* Coloca el elemento a la derecha en la tercera columna */
+  /* Estilos para el elemento a la derecha */
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+
+  }
+
+  /* Estilos para las etiquetas */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
 
+/* Estilos para el botón */
+button[type="button"] {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
 
-/* Sobre mí */
+button[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el formulario */
+form {
+  margin: 0;
+  padding: 0;
+}
+
+/* SECCIÓN SOBRE MI */
 
 .contenedor-grid {
-    grid-column: 2;
     display: grid;
     grid-gap: 20px; /* Agrega espacio entre las columnas */
     grid-template-columns: 1fr auto 1fr; /* Divide el contenedor en tres columnas */
     align-items: center; /* Centra verticalmente los elementos */
-    height: 100px; /* Establece una altura deseada para el contenedor */
+    height: 400px; /* Establece una altura deseada para el contenedor */
     font-size: 15px;
     padding: 30px;
 } 
 
 .izquierda {
-    border: 1px solid black;
+  position: relative;
+    width: 100%;
+    height: 200px;
+    align-content: center;
+    border: 2px solid #AAA;
+    border-radius: 10px;
+    padding: 50px 80px 80px 100px;
+    background-color: transparent;
+    outline: none;
     grid-column: 1; /* Coloca el elemento a la izquierda en la primera columna */
     /* Estilos para el elemento a la izquierda */
 }
 
 .derecha {
-    border:1px solid black;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  align-content: center;
+  border: 2px solid #AAA;
+  border-radius: 10px;
+  padding: 50px 80px 80px 100px;
+  background-color: transparent;
+  outline: none;
     grid-column: 3; /* Coloca el elemento a la derecha en la tercera columna */
     /* Estilos para el elemento a la derecha */
 }
