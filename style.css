@@ -6,6 +6,45 @@
     font-family: 'Poppins', sans-serif;
 }
 
+<<<<<<< Updated upstream
+=======
+.proyectos-texto{
+  text-align: center;
+}
+
+.flex-proyectos{
+  flex-direction: row; /* Alinea los elementos en una fila horizontal */
+  justify-content: center; /* Centra los elementos horizontalmente en el contenedor */
+}
+.contenedor-proyectos {
+  text-align: center;
+  width: 100%;
+  display: flexbox;
+  padding: 50px;
+}
+
+.proyecto-cajita-1,
+.proyecto-cajita-2,
+.proyecto-cajita-3 {
+  width: 300px;
+  height: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-left: 20px; /* Espacio entre las cajitas */
+  transition: background-color 0.25s ease, border-color 0.1s ease-out;
+}
+
+.proyecto-cajita-1:hover,
+.proyecto-cajita-2:hover,
+.proyecto-cajita-3:hover{
+  background-color: #aabaff;
+  border-color: #007BFF;
+}
+
+>>>>>>> Stashed changes
 .contacto-texto {
     text-align: center;
 }
