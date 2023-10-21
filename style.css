@@ -1,152 +1,90 @@
-/* ----- BASE ----- */
-*{
-    margin: 0;
+body{
+
+    font-size: 20px;
+    width: 100vw;
+    height: auto;
+    background-color: #32407B;
+    overflow-x: hidden;
+
+}
+.nombre{
+    margin-left: 1rem;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
-.contacto-texto {
-    text-align: center;
-}
 
-.contacto-texto span {
-    color: gray;
-}
-/* SECCIÓN CONTACTO */
 
-.contenedor-grid-contacto{
-grid-column: 1;
-display: grid;
-grid-gap: 20px; /*  espacio entre las columnas */
-grid-template-columns: 1fr auto 1fr; /* Divide el contenedor en tres columnas */
-grid-template-rows: 1fr 2fr 1fr 1fr 1fr;
-align-items: center; /* Centra verticalmente los elementos */
-height: 400px; /* Establece una altura deseada para el contenedor */
-font-size: 15px;
-padding: 30px;
-}
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    background-color: #151965;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); 
+    color: white;
+    padding: auto;
+  }
 
-.contacto-izquierda{
-    grid-column: 1; /* Coloca el elemento a la izquierda en la primera columna */
-    font-size: 18px;
-    font-weight: bold;
-    color: #ffffff;
+  nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin-right: 3rem;
+    
+    
+    
+  }
+  a{
+    color: azure;
+  }
+
+  .container{
     position: relative;
-    width: 100%;
-    height: 200px;
-    align-content: center;
-    border: 2px solid #AAA;
-    border-radius: 10px;
-    padding: 50px 80px 80px 200px;
-    background-color: #007BFF;
-    outline: none;
-
-}
-
-
-/* Estilos para el formulario */
-.contacto-derecha {
-  border:1px solid black;
-  grid-column: 3; /* Coloca el elemento a la derecha en la tercera columna */
-  /* Estilos para el elemento a la derecha */
-    width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-    margin-bottom: 20px;
-
+    display: flex;
+    width: 80vw;
+    height: 90vh;
+    margin: auto;
+    background-color:#32407B ;
+    
+    justify-content: space-between;
   }
-
-  /* Estilos para las etiquetas */
-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-
   
-/* Estilos para los campos de entrada */
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
-
-/* Estilos para el botón */
-button[type="button"] {
-  background-color: #007BFF;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-button[type="button"]:hover {
-  background-color: #0056b3;
-}
-
-/* Estilos para el formulario */
-form {
-  margin: 0;
-  padding: 0;
-}
-
-/* SECCIÓN SOBRE MI */
-
-.contenedor-grid {
-    display: grid;
-    grid-gap: 20px; /* Agrega espacio entre las columnas */
-    grid-template-columns: 1fr auto 1fr; /* Divide el contenedor en tres columnas */
-    align-items: center; /* Centra verticalmente los elementos */
-    height: 400px; /* Establece una altura deseada para el contenedor */
-    font-size: 15px;
-    padding: 30px;
-} 
-
-.izquierda {
-  position: relative;
-    width: 100%;
-    height: 200px;
-    align-content: center;
-    border: 2px solid #AAA;
+  
+    
+   .intro {
+    width: 30rem;
+    padding: 1rem;
     border-radius: 10px;
-    padding: 50px 80px 80px 100px;
-    background-color: transparent;
-    outline: none;
-    grid-column: 1; /* Coloca el elemento a la izquierda en la primera columna */
-    /* Estilos para el elemento a la izquierda */
-}
+    background-color: #083f4d;
+    align-self: center;
+    border-style: inset;
+    justify-self: left;
+    color: aliceblue;
 
-.derecha {
-  position: relative;
-  width: 100%;
-  height: 200px;
-  align-content: center;
-  border: 2px solid #AAA;
-  border-radius: 10px;
-  padding: 50px 80px 80px 100px;
-  background-color: transparent;
-  outline: none;
-    grid-column: 3; /* Coloca el elemento a la derecha en la tercera columna */
-    /* Estilos para el elemento a la derecha */
-}
+   }
 
-.boton-cv {
-    width: 100px; /* Establece el ancho deseado en píxeles */
-    height: 50px; /* Establece el alto deseado en píxeles */
-    font-size: 18px; /* Tamaño de fuente opcional */
-    /* Otros estilos opcionales */
-    background-color: #007bff; /* Cambia el color de fondo */
-    color: #ffffff; /* Cambia el color del texto */
-    border: none; /* Elimina el borde */
-    border-radius: 5px; /* Agrega esquinas redondeadas */
-    cursor: pointer; /* Cambia el cursor al pasar el ratón */
-}
+   img{
+    height: 300px;
+    width: 400px;
+    align-self: center;
+    border-radius: 30%;
+    justify-self: right;
+    border-color: #32407B;
+   }
+    
+    footer{
+    background-color: #151965;
+    z-index: 1;
+    display: flex;
+    color: aliceblue;
+    
+    
+  }
+  footer  img {
+    width: 50px;
+    height: 50px;
+    
+  }
