@@ -449,7 +449,47 @@ img {
 	}
 }
 
+/* TABLA PERSONAJES STAR WARS */
 
+.tabla2 {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+} 
+
+.tabla2 th,.tabla2 td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+} 
+
+.tabla2 th {
+    background-color: #f2f2f2;
+}
+
+.tabla2 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabla2 tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+#random-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #0074cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#random-button:hover {
+    background-color: #00579b;
+}
+ 
 
 /* FOOTER */
 footer {
