@@ -368,7 +368,9 @@ align-content: center;
 }
 .formulario__grupo-input textarea {
     width: 90%;
-    max-width: 500px;}
+    max-width: 500px;
+	max-height: 500px; 
+}}
 
 .formulario__input {
 	width: 90%;
@@ -524,6 +526,7 @@ align-content: center;
 		margin: auto;}
 	.formulario__grupo-input textarea {
 			max-width: 300px;
+			max-height: 400px; 
 }
 }
 
