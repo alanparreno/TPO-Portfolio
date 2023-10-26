@@ -235,7 +235,7 @@ a {
 .proyecto-cajita-2:hover,
 .proyecto-cajita-3:hover {
 	background-color: var(--color-claro1);
-	border: var(--color-claro3) 2px solid;
+	border: solid 2px #AAA;
 	height: var(--altura-hover);
 }
 
