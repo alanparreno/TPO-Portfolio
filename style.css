@@ -508,7 +508,9 @@ a {
 	.formulario__btn {
 		width: 100%;
 	}
+}
 	/*Parte Proyectos*/
+@media screen and (max-width: 1000px) {
 	.contenedor-proyectos {
 		flex-direction: column;
 		flex-wrap: wrap; /* Allow items to wrap to the next line */
