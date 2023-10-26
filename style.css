@@ -488,7 +488,7 @@ a {
 }
 
 
-/* ----- -----  Mediaqueries ----- ----- */
+/* ----- -----  webresponsive ----- ----- 
 @media screen and (max-width: 800px) {
 	.formulario {
 		grid-template-columns: 1fr;
