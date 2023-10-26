@@ -21,7 +21,7 @@
 //
 
 document.addEventListener('DOMContentLoaded', function() {
-    const cajitas = document.querySelectorAll('.proyecto-cajita-1, .proyecto-cajita-2, .proyecto-cajita-3');
+    const cajitas = document.querySelectorAll('.proyecto-cajita');
 
     cajitas.forEach(cajita => {
         const contenidoAltura = cajita.scrollHeight;
