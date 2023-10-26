@@ -508,6 +508,12 @@ a {
 	.formulario__btn {
 		width: 100%;
 	}
+	/*Parte Proyectos*/
+	.contenedor-proyectos {
+		flex-direction: column;
+		flex-wrap: wrap; /* Allow items to wrap to the next line */
+		justify-content: center;
+		}
 }
 
 /* TABLA PERSONAJES STAR WARS */
