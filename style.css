@@ -204,17 +204,21 @@ a {
 	flex-direction: row;
 	justify-content: center;
 }
+
 .contenedor-proyectos {
 	text-align: center;
 	width: 100%;
 	display: flex;
-	padding: 0px;
+	padding: 50px;
+	
+
 }
+
 .proyecto-cajita-1,
 .proyecto-cajita-2,
 .proyecto-cajita-3 {
 	width: 320px;
-	height: 300px;
+	height: 400px;
 	padding: 0px;
 	border: solid 2px #AAA;
 	border-radius: 5px;
@@ -222,9 +226,11 @@ a {
 	margin-right: 20px;
 	margin-left: 20px;
 	overflow: hidden;
+	/* Espacio entre las cajitas */
 	transition: background-color 0.25s ease, border-color 0.1s ease-out, height 0.25s ease;
 	z-index: 1;
 }
+
 .proyecto-cajita-1:hover,
 .proyecto-cajita-2:hover,
 .proyecto-cajita-3:hover {
@@ -232,45 +238,35 @@ a {
 	border: solid 2px #AAA;
 	height: var(--altura-hover);
 }
+
 .contenedor-proyectos img {
 	align-self: top;
-	margin-bottom: 8px;
-	margin-top: 0px;
-	height: 220px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	height: 300px;
 	box-shadow: inset, 10px white;
+
 }
+
 .proyecto-cajita-1 h2,
 .proyecto-cajita-2 h2,
 .proyecto-cajita-3 h2 {
-    height: 8%;
-    font-size: 25px;
-	margin: 15px;
-    transition: height 0.3s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.proyecto-cajita-1:hover h2,
-.proyecto-cajita-2:hover h2,
-.proyecto-cajita-3:hover h2 {
-    height: 2%;
-
+    height: 13%;
+	vertical-align: middle;
 }
 
-.proyecto-cajita-1 span,
-.proyecto-cajita-2 span,
-.proyecto-cajita-3 span {
-	font-size: 20px;
-}	
+.proyecto-cajita-1:hover img,
+.proyecto-cajita-2:hover img,
+.proyecto-cajita-3:hover img {
+	/*transform: scale(0.8);*/
+	margin-top: 10px;
+	transition: margin-top 0.3s ease;
+	
 }
 .proyecto-cajita-1 .proyecto-detalles,
 .proyecto-cajita-2 .proyecto-detalles,
 .proyecto-cajita-3 .proyecto-detalles {
     visibility: hidden;
-	font-size: 1rem;
-	margin-top:0px;
-	margin-left: 10px;
-	margin-right: 10px;
     opacity: 0;
     transition: visibility 0s, opacity 0.3s ease;
 }
@@ -488,7 +484,7 @@ a {
 }
 
 
-/* ----- -----  webresponsive ----- ----- 
+/* ----- -----  Mediaqueries ----- ----- */
 @media screen and (max-width: 800px) {
 	.formulario {
 		grid-template-columns: 1fr;
@@ -503,15 +499,6 @@ a {
 		width: 100%;
 	}
 }
-	/*Parte Proyectos
-@media screen and (max-width: 1000px) {
-	.contenedor-proyectos {
-		flex-direction: column;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 20px;
-		}
-}*/
 
 /* TABLA PERSONAJES STAR WARS */
 
