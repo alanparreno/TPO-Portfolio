@@ -76,7 +76,7 @@ a {
 
 }
 
-img {
+.img-bad {
 	height: 500px;
 	width: 600px;
 	align-self: center;
@@ -208,6 +208,7 @@ img {
 	width: 100%;
 	display: flex;
 	padding: 50px;
+	
 
 }
 
@@ -217,7 +218,7 @@ img {
 	width: 320px;
 	height: 400px;
 	padding: 0px;
-	border: var(--color-claro3) 2px solid;
+	border: solid 2px #AAA;
 	border-radius: 5px;
 	background-color: var(--color-claro2);
 	margin-right: 20px;
@@ -225,7 +226,7 @@ img {
 	overflow: hidden;
 	/* Espacio entre las cajitas */
 	transition: background-color 0.25s ease, border-color 0.1s ease-out, height 0.25s ease;
-
+	z-index: 1;
 }
 
 .proyecto-cajita-1:hover,
