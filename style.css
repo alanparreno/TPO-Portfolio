@@ -14,6 +14,10 @@ body {
 	overflow-x: hidden;
 
 }
+h2 {
+    text-align: center;
+    margin-top: 14px;
+}
 
 main {
 	margin: 0;
@@ -362,6 +366,9 @@ align-content: center;
 .formulario__grupo-input {
 	position: relative;
 }
+.formulario__grupo-input textarea {
+    width: 90%;
+    max-width: 500px;}
 
 .formulario__input {
 	width: 90%;
@@ -486,7 +493,7 @@ align-content: center;
 	.intro{width:300px;
 	}
 	.img-bad {
-		height: 200px;
+		height: 300px;
 		width: 300px;
 		transition: height 2s, width 2s;
 	}
@@ -512,8 +519,11 @@ align-content: center;
 		margin:auto
 	}
 	.contenedor-proyectos{
-		width: 30px;
-		margin: auto;
+		width: 280px;
+		font-size: 0.8rem;
+		margin: auto;}
+	.formulario__grupo-input textarea {
+			max-width: 300px;
 }
 }
 
