@@ -267,7 +267,7 @@ a {
 .proyecto-cajita-1:hover img,
 .proyecto-cajita-2:hover img,
 .proyecto-cajita-3:hover img {
-	/*transform: scale(0.8);*/
+	/*transform: scale(0.8);
 	margin-top: 10px;
 	transition: margin-top 0.3s ease;*/
 	
@@ -515,6 +515,7 @@ a {
 		flex-direction: column;
 		flex-wrap: wrap; /* Allow items to wrap to the next line */
 		justify-content: center;
+		gap: 20px;
 		}
 }
 
