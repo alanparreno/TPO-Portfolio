@@ -214,7 +214,7 @@ a {
 .proyecto-cajita-2,
 .proyecto-cajita-3 {
 	width: 320px;
-	height: 345px;
+	height: 300px;
 	padding: 0px;
 	border: solid 2px #AAA;
 	border-radius: 5px;
@@ -236,15 +236,15 @@ a {
 	align-self: top;
 	margin-bottom: 8px;
 	margin-top: 0px;
-	height: 250px;
+	height: 220px;
 	box-shadow: inset, 10px white;
-/*	justify-content: center*/
 }
 .proyecto-cajita-1 h2,
 .proyecto-cajita-2 h2,
 .proyecto-cajita-3 h2 {
     height: 8%;
     font-size: 25px;
+	margin: 15px;
     transition: height 0.3s ease;
     display: flex;
     align-items: center;
@@ -261,21 +261,13 @@ a {
 .proyecto-cajita-2 span,
 .proyecto-cajita-3 span {
 	font-size: 20px;
-}
-/*creo que hay q sacar este hover image
-.proyecto-cajita-1:hover img,
-.proyecto-cajita-2:hover img,
-.proyecto-cajita-3:hover img {
-	/*transform: scale(0.8);
-	margin-top: 10px;
-	transition: margin-top 0.3s ease;*/
-	
+}	
 }
 .proyecto-cajita-1 .proyecto-detalles,
 .proyecto-cajita-2 .proyecto-detalles,
 .proyecto-cajita-3 .proyecto-detalles {
     visibility: hidden;
-	font-size: 15px;
+	font-size: 1rem;
 	margin-top:0px;
 	margin-left: 10px;
 	margin-right: 10px;
