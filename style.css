@@ -204,16 +204,12 @@ a {
 	flex-direction: row;
 	justify-content: center;
 }
-
 .contenedor-proyectos {
 	text-align: center;
 	width: 100%;
 	display: flex;
 	padding: 50px;
-	
-
 }
-
 .proyecto-cajita-1,
 .proyecto-cajita-2,
 .proyecto-cajita-3 {
@@ -230,7 +226,6 @@ a {
 	transition: background-color 0.25s ease, border-color 0.1s ease-out, height 0.25s ease;
 	z-index: 1;
 }
-
 .proyecto-cajita-1:hover,
 .proyecto-cajita-2:hover,
 .proyecto-cajita-3:hover {
@@ -238,35 +233,50 @@ a {
 	border: solid 2px #AAA;
 	height: var(--altura-hover);
 }
-
 .contenedor-proyectos img {
 	align-self: top;
 	margin-bottom: 20px;
-	margin-top: 10px;
+	margin-top: 0px;
 	height: 300px;
 	box-shadow: inset, 10px white;
-
+/*	justify-content: center*/
 }
-
 .proyecto-cajita-1 h2,
 .proyecto-cajita-2 h2,
 .proyecto-cajita-3 h2 {
-    height: 13%;
-	vertical-align: middle;
+    height: 8%;
+    font-size: 25px;
+    transition: height 0.3s ease;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+.proyecto-cajita-1:hover h2,
+.proyecto-cajita-2:hover h2,
+.proyecto-cajita-3:hover h2 {
+    height: 3%;
+
 }
 
+.proyecto-cajita-1 span,
+.proyecto-cajita-2 span,
+.proyecto-cajita-3 span {
+	font-size: 20px;
+}
+/*creo que hay q sacar este hover image
 .proyecto-cajita-1:hover img,
 .proyecto-cajita-2:hover img,
 .proyecto-cajita-3:hover img {
 	/*transform: scale(0.8);*/
 	margin-top: 10px;
-	transition: margin-top 0.3s ease;
+	transition: margin-top 0.3s ease;*/
 	
 }
 .proyecto-cajita-1 .proyecto-detalles,
 .proyecto-cajita-2 .proyecto-detalles,
 .proyecto-cajita-3 .proyecto-detalles {
     visibility: hidden;
+	margin: 10px;
     opacity: 0;
     transition: visibility 0s, opacity 0.3s ease;
 }
