@@ -208,7 +208,7 @@ a {
 	text-align: center;
 	width: 100%;
 	display: flex;
-	padding: 50px;
+	padding: 0px;
 }
 .proyecto-cajita-1,
 .proyecto-cajita-2,
@@ -234,7 +234,7 @@ a {
 }
 .contenedor-proyectos img {
 	align-self: top;
-	margin-bottom: 20px;
+	margin-bottom: 8px;
 	margin-top: 0px;
 	height: 250px;
 	box-shadow: inset, 10px white;
