@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const cajitas = document.querySelectorAll('.proyecto-cajita-1, .proyecto-cajita-2, .proyecto-cajita-3');
 
     cajitas.forEach(cajita => {
-        const contenidoAltura = cajita.scrollHeight + 50;
+        const contenidoAltura = cajita.scrollHeight + 2;
         cajita.style.setProperty('--altura-hover', contenidoAltura + 'px');
 
         cajita.addEventListener('mouseenter', () => {
