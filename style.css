@@ -25,6 +25,9 @@ main {
 }
 
 /*  SECCION NAV */
+.contenedor-menu h1{
+	font-size: 2rem;
+}
 .nombre {
 	margin-left: 1rem;
 	padding: 0;
