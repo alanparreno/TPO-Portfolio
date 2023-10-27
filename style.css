@@ -51,6 +51,9 @@ nav ul {
 	list-style: none;
 	margin-right: 3rem;
 }
+/*a ver si esto arregla lo del responsive*/
+	nav ul li {
+        font-size: 1.2rem;}
 
 a {
 	color: azure;
