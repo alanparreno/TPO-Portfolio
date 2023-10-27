@@ -25,9 +25,6 @@ main {
 }
 
 /*  SECCION NAV */
-.contenedor-menu h1{
-	font-size: 2rem;
-}
 .nombre {
 	margin-left: 1rem;
 	padding: 0;
@@ -54,9 +51,7 @@ nav ul {
 	list-style: none;
 	margin-right: 3rem;
 }
-/*a ver si esto arregla lo del responsive*/
-	nav ul li {
-        font-size: 1.2rem;}
+
 
 a {
 	color: azure;
